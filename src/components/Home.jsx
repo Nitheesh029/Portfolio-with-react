@@ -1,6 +1,9 @@
 function Home() {
   return (
-    <div className="min-w-screen pt-[200px] flex md:flex-row flex-col justify-center items-center gap-20">
+    <div
+      className="min-h-screen flex md:flex-row flex-col justify-center items-center gap-20"
+      id="Home"
+    >
       <div>
         <img
           src="profile1.png"
@@ -14,7 +17,7 @@ function Home() {
         <p className="capitalize text-3xl md:text-4xl">
           frontend <span className="text-blue-400">developer</span>
         </p>
-        <div className="flex justify-evenly sm:gap-0 gap-5">
+        <div className="flex justify-evenly md:gap-0 gap-5">
           <button className="border-2 border-blue-400 px-10 py-2 rounded-md blueShadow duration-200">
             Github
           </button>

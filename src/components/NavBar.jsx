@@ -5,7 +5,7 @@ function NavBar(props) {
       <div className="Logo text-xl font-semibold cursor-pointer">
         S Nitheesh
       </div>
-      <div className="sm:flex gap-5 hidden">
+      <div className="md:flex gap-5 hidden">
         {navMenus.map((navMenu, navMenuIndex) => {
           return (
             <button
@@ -24,7 +24,7 @@ function NavBar(props) {
           );
         })}
       </div>
-      <div className="flex sm:hidden">
+      <div className="flex md:hidden">
         <button onClick={toggleShowModel}>
           <i className="fa-solid fa-bars rounded-full p-2 hover:bg-slate-700 cursor-pointer"></i>
         </button>
