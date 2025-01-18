@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function Home() {
   return (
     <div
@@ -19,17 +21,17 @@ function Home() {
         </p>
         <div className="flex justify-evenly gap-5">
           <a href="https://github.com/Nitheesh029" target="_blank">
-            <button className="border-2 border-blue-400 px-10 py-2 rounded-md blueShadow duration-200 flex items-center gap-2">
+            <Button>
               Github<i className="fa-brands fa-square-github text-lg"></i>
-            </button>
+            </Button>
           </a>
           <a
             href="https://www.linkedin.com/in/s-nitheesh-203171314/"
             target="_blank"
           >
-            <button className="border-2 border-blue-400 px-10 py-2 rounded-md blueShadow duration-200 flex items-center gap-2">
+            <Button>
               LinkedIn<i className="fa-brands fa-linkedin text-lg"></i>
-            </button>
+            </Button>
           </a>
         </div>
       </div>
