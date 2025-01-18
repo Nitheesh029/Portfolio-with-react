@@ -12,7 +12,7 @@ function Experience() {
         </p>
         <h1 className="text-6xl font-semibold">Experience</h1>
       </div>
-      <div className="flex flex-col md:flex-row gap-5 md:gap-10 mt-[100px]">
+      <div className="flex flex-col md:flex-row gap-5 md:gap-[200px] mt-[100px]">
         <div className=" border-2 w-[300px] py-4 flex flex-col items-center gap-5 rounded-xl">
           <p className="text-xl text-slate-400 font-bold">
             Programming Language

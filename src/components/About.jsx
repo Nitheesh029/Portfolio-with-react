@@ -10,7 +10,7 @@ function About() {
         </p>
         <h1 className="text-6xl font-semibold">About Me</h1>
       </div>
-      <div className="flex lg:gap-20 gap-10 mt-[100px] flex-col md:flex-row">
+      <div className="flex lg:gap-[200px] gap-10 mt-[100px] flex-col md:flex-row">
         <div className="mx-auto md:mx-0">
           <img
             src="about.jpg"
