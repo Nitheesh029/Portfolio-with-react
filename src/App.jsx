@@ -33,8 +33,8 @@ function App() {
       )}
       <Home />
       <About />
-      {/*<Experience />
-      <Projects />
+      <Experience />
+      {/* <Projects />
       <Footer /> */}
     </div>
   );
