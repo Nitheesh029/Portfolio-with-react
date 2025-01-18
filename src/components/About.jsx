@@ -8,7 +8,7 @@ function About() {
         <p className="text-slate-400 text-xl">
           Get to <span className="text-blue-400">Know More</span>
         </p>
-        <h1 className="text-6xlfont-semibold">About Me</h1>
+        <h1 className="text-6xl font-semibold">About Me</h1>
       </div>
       <div className="flex lg:gap-20 gap-10 mt-[100px] flex-col md:flex-row">
         <div className="mx-auto md:mx-0">

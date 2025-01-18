@@ -3,10 +3,10 @@ import { programmingLanguages, frontendSkills } from "../utils/skills";
 function Experience() {
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center"
+      className="mi-h-screen flex flex-col items-center justify-center"
       id="Experience"
     >
-      <div className="text-center leading-10">
+      <div className="text-center leading-10 md:pt-0 pt-[100px]">
         <p className="text-slate-400 text-xl">
           Explore <span className="text-blue-400">My</span>
         </p>
