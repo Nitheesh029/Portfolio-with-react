@@ -1,11 +1,11 @@
 import { useState } from "react";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Footer from "./components/Footer";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import SideBar from "./components/SideBar";
+import Contact from "./components/Contact";
 
 function App() {
   const navMenus = ["Home", "About", "Experience", "Projects", "Contacts"];
@@ -35,7 +35,7 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      {/*  <Footer /> */}
+      <Contact />
     </div>
   );
 }
