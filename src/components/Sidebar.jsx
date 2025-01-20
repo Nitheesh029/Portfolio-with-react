@@ -1,4 +1,4 @@
-function SideBar(props) {
+function Sidebar(props) {
   const { toggleShowModel, navMenus, selectedMenu, setSelectedMenu } = props;
   return (
     <div className="flex flex-col fixed right-0 z-20 top-0 h-full bg-slate-900 shadow-slate-500 shadow-md">

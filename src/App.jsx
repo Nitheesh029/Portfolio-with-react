@@ -4,7 +4,7 @@ import Experience from "./components/Experience";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
-import SideBar from "./components/SideBar";
+import Sidebar from "./components/Sidebar";
 import Contact from "./components/Contact";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         setSelectedMenu={setSelectedMenu}
       />
       {showModel && (
-        <SideBar
+        <Sidebar
           toggleShowModel={toggleShowModel}
           navMenus={navMenus}
           selectedMenu={selectedMenu}
