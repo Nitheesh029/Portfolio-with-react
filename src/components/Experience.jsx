@@ -13,14 +13,14 @@ function Experience() {
         <h1 className="text-6xl font-semibold">Experience</h1>
       </div>
       <div className="flex flex-col md:flex-row gap-5 md:gap-[200px] mt-[100px]">
-        <div className=" border-2 w-[300px] py-4 flex flex-col items-center gap-5 rounded-xl">
-          <p className="text-xl text-slate-400 font-bold">
+        <div className=" border-2 w-[400px] py-4 flex flex-col items-center gap-5 rounded-xl">
+          <p className="text-2xl text-slate-400 font-bold">
             Programming Language
           </p>
           {programmingLanguages.map((lang, langIndex) => {
             return (
               <div className="text-center">
-                <p key={langIndex} className="text-lg font-semibold">
+                <p key={langIndex} className="text-xl font-semibold">
                   {lang.language}
                 </p>
                 <p key={langIndex} className="text-sm text-blue-400 font-light">
@@ -30,14 +30,14 @@ function Experience() {
             );
           })}
         </div>
-        <div className="border-2 w-[300px] py-4 flex flex-col items-center gap-5 rounded-xl">
-          <p className="text-xl text-slate-400 font-bold">
+        <div className="border-2 w-[400px] py-4 flex flex-col items-center gap-5 rounded-xl">
+          <p className="text-2xl text-slate-400 font-bold">
             Frontend Development
           </p>
           {frontendSkills.map((lang, langIndex) => {
             return (
               <div className="text-center">
-                <p key={langIndex} className="text-lg font-semibold">
+                <p key={langIndex} className="text-xl font-semibold">
                   {lang.language}
                 </p>
                 <p key={langIndex} className="text-sm text-blue-400 font-light">
