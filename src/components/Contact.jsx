@@ -27,7 +27,7 @@ function Contact() {
   };
   return (
     <div
-      className="min-h-screen flex items-center justify-center flex-col"
+      className="min-h-screen flex items-center justify-center flex-col relative"
       id="Contacts"
     >
       <div className="text-center leading-10 md:pt-0 pt-[100px]">
@@ -101,9 +101,6 @@ function Contact() {
           <button
             type="submit"
             className="border-2 border-blue-400 px-10 py-2 rounded-md blueShadow duration-200 outline-none bg-slate-950"
-            onClick={() => {
-              <span>{alert(result)}</span>;
-            }}
           >
             Submit Now
           </button>
