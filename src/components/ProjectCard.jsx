@@ -6,7 +6,10 @@ function ProjectCard(props) {
     <>
       {projectDetails.map((projectDetail, index) => {
         return (
-          <div className="w-[320px] border-2 rounded-xl h-[400px] flex flex-col justify-around">
+          <div
+            className="w-[320px] border-2 rounded-xl h-[400px] flex flex-col justify-around"
+            key={index}
+          >
             <div>
               <img
                 src={projectDetail.imgUrl}
