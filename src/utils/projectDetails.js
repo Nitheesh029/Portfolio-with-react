@@ -12,10 +12,9 @@ export const projectDetails = [
     demoUrl: "https://nasa-project-jade-phi.vercel.app/",
   },
   {
-    imgUrl: "ticket.png",
+    imgUrl: "netflix.png",
     projectNum: "Three",
-    githubUrl:
-      "https://github.com/Nitheesh029/conference-ticket-generator-main/tree/main",
-    demoUrl: "https://conference-ticket-generator-main-lzny.vercel.app/",
+    githubUrl: "https://github.com/Nitheesh029/Netflix-Clone/tree/main",
+    demoUrl: "https://netflix-clone-two-nu-64.vercel.app/",
   },
 ];
